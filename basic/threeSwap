@@ -1,0 +1,12 @@
+public class MyClass {
+    public static void main(String args[]) {
+      int d=1;
+      int e=8
+      int f= 9;
+      int swap= d;
+        d = e;
+        e = f;
+        f= swap;
+       
+    }
+}
