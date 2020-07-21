@@ -1,0 +1,25 @@
+import java.util.Scanner;
+ 
+public class MyClass
+{
+    public static void main(String args[])
+  {
+    int one, two, add, subtract, multiply;
+    double devide;
+    Scanner sc = new Scanner(System.in);
+
+    System.out.print("Enter Two Numbers : ");
+    one = scanner.nextInt();
+    two = scanner.nextInt();
+
+    add = one + two;
+    subtract = one - two;
+    multiply = one * two;
+    devide = (double) one / two;
+
+    System.out.println("sum " + add);
+    System.out.println("difference = " + subtract);
+    System.out.println("product = " + multiply);
+    System.out.println("divide = " + devide);
+  }
+}
