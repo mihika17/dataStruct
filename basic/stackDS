@@ -1,0 +1,5 @@
+begin   
+    if top = n then stack full   
+    top = top + 1  
+    stack (top) : = item;  
+end   
