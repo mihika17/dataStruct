@@ -1,0 +1,14 @@
+class LinearSearch { 
+  
+    static int search(int arr[], int i, int m) 
+    { 
+        for (int x = 0; x < i; x++) { 
+        
+            if (arr[x] == m) 
+                return m; 
+        } 
+  
+
+        return -1; 
+    } 
+  
